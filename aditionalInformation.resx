@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmbxYear.Items1" xml:space="preserve">
+    <value>1926</value>
+  </data>
+  <data name="&gt;&gt;rBtnProfessor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmbxSpecialzation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDateOfBirth.Text" xml:space="preserve">
+    <value>Date of Birth  :</value>
+  </data>
+  <data name="cmbxYear.Items89" xml:space="preserve">
+    <value>2014</value>
+  </data>
+  <data name="cmbxYear.Items41" xml:space="preserve">
+    <value>1966</value>
+  </data>
+  <data name="cmbxYear.Items6" xml:space="preserve">
+    <value>1931</value>
+  </data>
+  <data name="&gt;&gt;lblFullName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbxYear.Items42" xml:space="preserve">
+    <value>1967</value>
+  </data>
+  <data name="cmbxMonth.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmbxDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmbxYear.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cmbxYear.Items3" xml:space="preserve">
+    <value>1928</value>
+  </data>
+  <data name="cmbxMajor.Items" xml:space="preserve">
+    <value>Humanities &amp; Social Sciences</value>
+  </data>
+  <data name="lblFullName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cmbxMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 132</value>
+  </data>
+  <data name="cmbxYear.Items98" xml:space="preserve">
+    <value>2023</value>
+  </data>
+  <data name="cmbxDay.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="lblDateOfBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="cmbxDay.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cmbxYear.Items16" xml:space="preserve">
+    <value>1941</value>
+  </data>
+  <data name="cmbxYear.Items67" xml:space="preserve">
+    <value>1992</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>aditionalInformation</value>
+  </data>
+  <data name="&gt;&gt;cmbxYear.Name" xml:space="preserve">
+    <value>cmbxYear</value>
+  </data>
+  <data name="&gt;&gt;cmbxDay.Name" xml:space="preserve">
+    <value>cmbxDay</value>
+  </data>
+  <data name="cmbxDay.Items26" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblMajor.Text" xml:space="preserve">
+    <value>Major :</value>
+  </data>
+  <data name="cmbxYear.Items27" xml:space="preserve">
+    <value>1952</value>
+  </data>
+  <data name="&gt;&gt;cmbxMajor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items32" xml:space="preserve">
+    <value>1957</value>
+  </data>
+  <data name="cmbxDay.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;cmbxSpecialzation.Name" xml:space="preserve">
+    <value>cmbxSpecialzation</value>
+  </data>
+  <data name="cmbxMonth.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbxYear.Items36" xml:space="preserve">
+    <value>1961</value>
+  </data>
+  <data name="cmbxDay.Text" xml:space="preserve">
+    <value>       Day</value>
+  </data>
+  <data name="cmbxDay.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cmbxDay.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cmbxTermsOfUse.Name" xml:space="preserve">
+    <value>cmbxTermsOfUse</value>
+  </data>
+  <data name="cmbxDay.Items23" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="cmbxYear.Items97" xml:space="preserve">
+    <value>2022</value>
+  </data>
+  <data name="txtFullName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rBtnStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 193</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialization.Name" xml:space="preserve">
+    <value>lblSpecialization</value>
+  </data>
+  <data name="rBtnStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 24</value>
+  </data>
+  <data name="cmbxYear.Items74" xml:space="preserve">
+    <value>1999</value>
+  </data>
+  <data name="&gt;&gt;cmbxMajor.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbxSpecialzation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtFullName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 27</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialization.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxTermsOfUse.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmbxYear.Items84" xml:space="preserve">
+    <value>2009</value>
+  </data>
+  <data name="cmbxYear.Items65" xml:space="preserve">
+    <value>1990</value>
+  </data>
+  <data name="cmbxMonth.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cmbxTermsOfUse.Text" xml:space="preserve">
+    <value>I Fully Accept The Terms of The Use</value>
+  </data>
+  <data name="cmbxYear.Items61" xml:space="preserve">
+    <value>1986</value>
+  </data>
+  <data name="lblDateOfBirth.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblDateOfBirth.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbxYear.Items9" xml:space="preserve">
+    <value>1934</value>
+  </data>
+  <data name="cmbxYear.Items94" xml:space="preserve">
+    <value>2019</value>
+  </data>
+  <data name="cmbxYear.Items93" xml:space="preserve">
+    <value>2018</value>
+  </data>
+  <data name="cmbxMajor.Items5" xml:space="preserve">
+    <value>Arts &amp; Design</value>
+  </data>
+  <data name="&gt;&gt;cmbxTermsOfUse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxYear.Items37" xml:space="preserve">
+    <value>1962</value>
+  </data>
+  <data name="lblContinueAs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 195</value>
+  </data>
+  <data name="cmbxMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 132</value>
+  </data>
+  <data name="rBtnProfessor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mbtnSignUp.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialButton, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmbxDay.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFullName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System.ComponentModel.EventBasedAsync, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cmbxMonth.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbxYear.Items60" xml:space="preserve">
+    <value>1985</value>
+  </data>
+  <data name="cmbxDay.Items24" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="cmbxDay.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtFullName.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbxYear.Items2" xml:space="preserve">
+    <value>1927</value>
+  </data>
+  <data name="cmbxDay.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cmbxYear.Items20" xml:space="preserve">
+    <value>1945</value>
+  </data>
+  <data name="rBtnProfessor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbxYear.Items70" xml:space="preserve">
+    <value>1995</value>
+  </data>
+  <data name="cmbxMonth.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblDateOfBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxDay.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbxYear.Items100" xml:space="preserve">
+    <value>2025</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;cmbxMonth.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmbxMajor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtFullName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxYear.Items68" xml:space="preserve">
+    <value>1993</value>
+  </data>
+  <data name="lblContinueAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="cmbxYear.Items30" xml:space="preserve">
+    <value>1955</value>
+  </data>
+  <data name="cmbxYear.Items8" xml:space="preserve">
+    <value>1933</value>
+  </data>
+  <data name="cmbxYear.Items50" xml:space="preserve">
+    <value>1975</value>
+  </data>
+  <data name="&gt;&gt;lblMajor.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblSpecialization.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 291</value>
+  </data>
+  <data name="cmbxYear.Items62" xml:space="preserve">
+    <value>1987</value>
+  </data>
+  <data name="cmbxYear.Items95" xml:space="preserve">
+    <value>2020</value>
+  </data>
+  <data name="cmbxYear.Items33" xml:space="preserve">
+    <value>1958</value>
+  </data>
+  <data name="cmbxYear.Items14" xml:space="preserve">
+    <value>1939</value>
+  </data>
+  <data name="cmbxDay.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rBtnStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="cmbxYear.Items92" xml:space="preserve">
+    <value>2017</value>
+  </data>
+  <data name="&gt;&gt;cmbxYear.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblMajor.Name" xml:space="preserve">
+    <value>lblMajor</value>
+  </data>
+  <data name="cmbxMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 240</value>
+  </data>
+  <data name="&gt;&gt;cmbxTermsOfUse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbxSpecialzation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 28</value>
+  </data>
+  <data name="cmbxMajor.Items2" xml:space="preserve">
+    <value>Engineering &amp; Technology</value>
+  </data>
+  <data name="cmbxYear.Items7" xml:space="preserve">
+    <value>1932</value>
+  </data>
+  <data name="cmbxYear.Items43" xml:space="preserve">
+    <value>1968</value>
+  </data>
+  <data name="cmbxYear.Items83" xml:space="preserve">
+    <value>2008</value>
+  </data>
+  <data name="&gt;&gt;rBtnStudent.Name" xml:space="preserve">
+    <value>rBtnStudent</value>
+  </data>
+  <data name="&gt;&gt;cmbxYear.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items26" xml:space="preserve">
+    <value>1951</value>
+  </data>
+  <data name="mbtnSignUp.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbxYear.Items52" xml:space="preserve">
+    <value>1977</value>
+  </data>
+  <data name="cmbxMonth.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbxYear.Items58" xml:space="preserve">
+    <value>1983</value>
+  </data>
+  <data name="lblMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 243</value>
+  </data>
+  <data name="cmbxYear.Items13" xml:space="preserve">
+    <value>1938</value>
+  </data>
+  <data name="&gt;&gt;cmbxTermsOfUse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mbtnSignUp.Name" xml:space="preserve">
+    <value>mbtnSignUp</value>
+  </data>
+  <data name="cmbxYear.Items40" xml:space="preserve">
+    <value>1965</value>
+  </data>
+  <data name="cmbxMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 28</value>
+  </data>
+  <data name="cmbxDay.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mbtnSignUp.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="cmbxYear.Items51" xml:space="preserve">
+    <value>1976</value>
+  </data>
+  <data name="cmbxYear.Items66" xml:space="preserve">
+    <value>1991</value>
+  </data>
+  <data name="cmbxDay.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbxYear.Items80" xml:space="preserve">
+    <value>2005</value>
+  </data>
+  <data name="cmbxYear.Items64" xml:space="preserve">
+    <value>1989</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mbtnSignUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 6, 4, 6</value>
+  </data>
+  <data name="cmbxYear.Items54" xml:space="preserve">
+    <value>1979</value>
+  </data>
+  <data name="cmbxYear.Items15" xml:space="preserve">
+    <value>1940</value>
+  </data>
+  <data name="cmbxYear.Items53" xml:space="preserve">
+    <value>1978</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialForm, MaterialSkin, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cmbxMajor.Items1" xml:space="preserve">
+    <value>Natural Basic Sciences</value>
+  </data>
+  <data name="cmbxDay.Items25" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="cmbxYear.Items47" xml:space="preserve">
+    <value>1972</value>
+  </data>
+  <data name="cmbxYear.Items96" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="cmbxYear.Text" xml:space="preserve">
+    <value>       Year</value>
+  </data>
+  <data name="&gt;&gt;cmbxMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mbtnSignUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 400</value>
+  </data>
+  <data name="cmbxYear.Items10" xml:space="preserve">
+    <value>1935</value>
+  </data>
+  <data name="lblSpecialization.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cmbxYear.Items48" xml:space="preserve">
+    <value>1973</value>
+  </data>
+  <data name="&gt;&gt;lblContinueAs.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialization.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rBtnProfessor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxDay.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cmbxMonth.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblContinueAs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblContinueAs.Name" xml:space="preserve">
+    <value>lblContinueAs</value>
+  </data>
+  <data name="cmbxMajor.Items4" xml:space="preserve">
+    <value>Medical &amp; Health Sciences</value>
+  </data>
+  <data name="cmbxMonth.Text" xml:space="preserve">
+    <value>     Month</value>
+  </data>
+  <data name="cmbxYear.Items59" xml:space="preserve">
+    <value>1984</value>
+  </data>
+  <data name="cmbxMajor.Items3" xml:space="preserve">
+    <value>Business &amp; Economics</value>
+  </data>
+  <data name="&gt;&gt;cmbxDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbxDay.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rBtnProfessor.Text" xml:space="preserve">
+    <value>Professor</value>
+  </data>
+  <data name="cmbxMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmbxDay.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbxYear.Items82" xml:space="preserve">
+    <value>2007</value>
+  </data>
+  <data name="lblMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="cmbxMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 28</value>
+  </data>
+  <data name="cmbxDay.Items29" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="cmbxYear.Items87" xml:space="preserve">
+    <value>2012</value>
+  </data>
+  <data name="&gt;&gt;lblMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rBtnStudent.Text" xml:space="preserve">
+    <value>Student</value>
+  </data>
+  <data name="cmbxDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 132</value>
+  </data>
+  <data name="&gt;&gt;lblDateOfBirth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items63" xml:space="preserve">
+    <value>1988</value>
+  </data>
+  <data name="&gt;&gt;cmbxDay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxDay.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblContinueAs.Text" xml:space="preserve">
+    <value>Continue As :</value>
+  </data>
+  <data name="cmbxYear.Items79" xml:space="preserve">
+    <value>2004</value>
+  </data>
+  <data name="mbtnSignUp.Text" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="mbtnSignUp.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmbxYear.Items99" xml:space="preserve">
+    <value>2024</value>
+  </data>
+  <data name="&gt;&gt;cmbxMajor.Name" xml:space="preserve">
+    <value>cmbxMajor</value>
+  </data>
+  <data name="cmbxYear.Items76" xml:space="preserve">
+    <value>2001</value>
+  </data>
+  <data name="cmbxDay.Items27" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="cmbxYear.Items91" xml:space="preserve">
+    <value>2016</value>
+  </data>
+  <data name="cmbxSpecialzation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 288</value>
+  </data>
+  <data name="&gt;&gt;lblContinueAs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items" xml:space="preserve">
+    <value>1925</value>
+  </data>
+  <data name="cmbxYear.Items81" xml:space="preserve">
+    <value>2006</value>
+  </data>
+  <data name="&gt;&gt;lblSpecialization.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbxYear.Items44" xml:space="preserve">
+    <value>1969</value>
+  </data>
+  <data name="cmbxDay.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblDateOfBirth.Name" xml:space="preserve">
+    <value>lblDateOfBirth</value>
+  </data>
+  <data name="rBtnProfessor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 193</value>
+  </data>
+  <data name="&gt;&gt;lblFullName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rBtnStudent.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblFullName.Text" xml:space="preserve">
+    <value>Full Name :</value>
+  </data>
+  <data name="cmbxYear.Items23" xml:space="preserve">
+    <value>1948</value>
+  </data>
+  <data name="&gt;&gt;lblFullName.Name" xml:space="preserve">
+    <value>lblFullName</value>
+  </data>
+  <data name="cmbxYear.Items39" xml:space="preserve">
+    <value>1964</value>
+  </data>
+  <data name="cmbxDay.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cmbxYear.Items86" xml:space="preserve">
+    <value>2011</value>
+  </data>
+  <data name="cmbxYear.Items72" xml:space="preserve">
+    <value>1997</value>
+  </data>
+  <data name="cmbxYear.Items77" xml:space="preserve">
+    <value>2002</value>
+  </data>
+  <data name="&gt;&gt;mbtnSignUp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxDay.Items28" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblSpecialization.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;lblMajor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items35" xml:space="preserve">
+    <value>1960</value>
+  </data>
+  <data name="cmbxYear.Items31" xml:space="preserve">
+    <value>1956</value>
+  </data>
+  <data name="&gt;&gt;cmbxSpecialzation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmbxDay.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cmbxYear.Items12" xml:space="preserve">
+    <value>1937</value>
+  </data>
+  <data name="lblFullName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>174, 78</value>
+  </data>
+  <data name="&gt;&gt;rBtnStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxYear.Items55" xml:space="preserve">
+    <value>1980</value>
+  </data>
+  <data name="&gt;&gt;lblContinueAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxTermsOfUse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 24</value>
+  </data>
+  <data name="cmbxYear.Items4" xml:space="preserve">
+    <value>1929</value>
+  </data>
+  <data name="&gt;&gt;lblFullName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Academic and Aditional Information</value>
+  </data>
+  <data name="cmbxMonth.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cmbxDay.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cmbxMonth.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cmbxYear.Items25" xml:space="preserve">
+    <value>1950</value>
+  </data>
+  <data name="cmbxYear.Items34" xml:space="preserve">
+    <value>1959</value>
+  </data>
+  <data name="&gt;&gt;txtFullName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbxTermsOfUse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 346</value>
+  </data>
+  <data name="cmbxSpecialzation.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtFullName.Name" xml:space="preserve">
+    <value>txtFullName</value>
+  </data>
+  <data name="&gt;&gt;rBtnProfessor.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cmbxYear.Items73" xml:space="preserve">
+    <value>1998</value>
+  </data>
+  <data name="&gt;&gt;mbtnSignUp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmbxYear.Items21" xml:space="preserve">
+    <value>1946</value>
+  </data>
+  <data name="cmbxYear.Items88" xml:space="preserve">
+    <value>2013</value>
+  </data>
+  <data name="cmbxDay.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="rBtnStudent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmbxYear.Items71" xml:space="preserve">
+    <value>1996</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mbtnSignUp.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="cmbxYear.Items22" xml:space="preserve">
+    <value>1947</value>
+  </data>
+  <data name="rBtnProfessor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="cmbxMonth.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cmbxYear.Items49" xml:space="preserve">
+    <value>1974</value>
+  </data>
+  <data name="txtFullName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 75</value>
+  </data>
+  <data name="cmbxYear.Items46" xml:space="preserve">
+    <value>1971</value>
+  </data>
+  <data name="cmbxYear.Items17" xml:space="preserve">
+    <value>1942</value>
+  </data>
+  <data name="cmbxYear.Items24" xml:space="preserve">
+    <value>1949</value>
+  </data>
+  <data name="cmbxYear.Items28" xml:space="preserve">
+    <value>1953</value>
+  </data>
+  <data name="mbtnSignUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 29</value>
+  </data>
+  <data name="cmbxDay.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="cmbxYear.Items5" xml:space="preserve">
+    <value>1930</value>
+  </data>
+  <data name="cmbxYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 28</value>
+  </data>
+  <data name="cmbxYear.Items11" xml:space="preserve">
+    <value>1936</value>
+  </data>
+  <data name="cmbxDay.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblDateOfBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 135</value>
+  </data>
+  <data name="cmbxYear.Items85" xml:space="preserve">
+    <value>2010</value>
+  </data>
+  <data name="cmbxYear.Items78" xml:space="preserve">
+    <value>2003</value>
+  </data>
+  <data name="cmbxDay.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cmbxYear.Items38" xml:space="preserve">
+    <value>1963</value>
+  </data>
+  <data name="cmbxMonth.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cmbxYear.Items69" xml:space="preserve">
+    <value>1994</value>
+  </data>
+  <data name="cmbxYear.Items18" xml:space="preserve">
+    <value>1943</value>
+  </data>
+  <data name="cmbxYear.Items57" xml:space="preserve">
+    <value>1982</value>
+  </data>
+  <data name="lblMajor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmbxDay.Items30" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="cmbxYear.Items45" xml:space="preserve">
+    <value>1970</value>
+  </data>
+  <data name="cmbxYear.Items29" xml:space="preserve">
+    <value>1954</value>
+  </data>
+  <data name="cmbxYear.Items75" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="&gt;&gt;cmbxMonth.Name" xml:space="preserve">
+    <value>cmbxMonth</value>
+  </data>
+  <data name="cmbxYear.Items56" xml:space="preserve">
+    <value>1981</value>
+  </data>
+  <data name="&gt;&gt;rBtnProfessor.Name" xml:space="preserve">
+    <value>rBtnProfessor</value>
+  </data>
+  <data name="lblSpecialization.Text" xml:space="preserve">
+    <value>Specialization  :</value>
+  </data>
+  <data name="cmbxMonth.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cmbxMonth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rBtnStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxYear.Items90" xml:space="preserve">
+    <value>2015</value>
+  </data>
+  <data name="&gt;&gt;cmbxYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbxYear.Items19" xml:space="preserve">
+    <value>1944</value>
+  </data>
+  <data name="cmbxDay.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>fa</value>
+  </metadata>
+</root>
