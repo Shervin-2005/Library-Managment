@@ -19,7 +19,7 @@ namespace Library_Managment
         {
             InitializeComponent();
         }
-
+        //Shervin
         //if User Closed don't close the Form Just Hide it (Because of Disposing)
         private void About_FormClosing(object sender, FormClosingEventArgs e)
         {
